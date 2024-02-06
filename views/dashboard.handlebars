@@ -8,7 +8,7 @@
   <ul class="post-list">
     {{#each posts as |post|}}
     <li class="mb-4">
-      {{> post post}}
+      {{> post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link text-blue-500 hover:text-blue-700">edit post</a>
     </li>
     {{/each}}
