@@ -5,8 +5,15 @@
 This is a simple MVC (Model-View-Controller) blog application built using PHP. The application allows users to perform CRUD operations on blog posts, manage user accounts, and interact with comments.
 
 ## Important Links
-Live applications:
-Repo link: 
+Live applications: https://mvc-blog-applications-2024-6092fe895613.herokuapp.com/
+
+
+Repo link: https://github.com/Evan8383/mvc-blog-app
+
+
+![login](image-2.png)
+![posts](image.png)
+![edit posts](image-1.png)
 
 ## Table of Contents
 
