@@ -9,7 +9,7 @@ router.use('/', homeRoutes);
 
 
 router.use((req, res) => {
-    res.status(404).send("Page doesn't exist!");
+  res.status(404).send("Page doesn't exist!");
 });
 
 

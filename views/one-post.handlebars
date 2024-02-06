@@ -1,15 +1,19 @@
-<a href="/dashboard" class="go-back flex items-center mt-4 text-blue-500 hover:text-blue-700">&larr; Back to dashboard</a>
+<a href="/dashboard" class="go-back flex items-center mt-4 text-blue-500 hover:text-blue-700">&larr; Back to
+  dashboard</a>
 
 {{> post post}}
 
 {{#if loggedIn}}
 <form class="comment-form mt-8">
   <div class="mb-4">
-    <textarea name="comment-body" class="w-full border border-gray-300 rounded-lg py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500"></textarea>
+    <textarea name="comment-body"
+      class="w-full border border-gray-300 rounded-lg py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500"></textarea>
   </div>
 
   <div>
-    <button type="submit" class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">add comment</button>
+    <button type="submit"
+      class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">add
+      comment</button>
   </div>
 </form>
 {{/if}}
