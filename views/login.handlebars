@@ -1,20 +1,19 @@
-<section class="login-page">
-  <h1>Log In</h1>
-  <div class="form-section">
+<section class="login-page flex flex-col items-center justify-center min-h-screen bg-gray-100">
+  <h1 class="text-3xl font-bold mb-8">Log In</h1>
+  <div class="form-section bg-white p-8 rounded shadow-md">
     <form class="login-form">
-      <div>
-        <label for="username-login">Username</label>
-        <input type="text" class="entry-field" id="username-login" />
-        <br>
-        <label for="password-login">Password</label>
-        <input type="password" class="entry-field" id="password-login" />
-        <br>
-        <button type="submit" class="login-signup-btn">Log In!</button>
+      <div class="mb-4">
+        <label for="username-login" class="block text-gray-700">Username</label>
+        <input type="text" class="entry-field border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500" id="username-login" />
       </div>
+      <div class="mb-4">
+        <label for="password-login" class="block text-gray-700">Password</label>
+        <input type="password" class="entry-field border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500" id="password-login" />
+      </div>
+      <button type="submit" class="login-signup-btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Log In!</button>
     </form>
   </div>
-
-  <a href="/signup" class="sign-in-link">sign up instead</a>
+  <a href="/signup" class="sign-in-link mt-4 text-blue-500 hover:text-blue-700">sign up instead</a>
 </section>
 
 <script src="/js/login.js"></script>

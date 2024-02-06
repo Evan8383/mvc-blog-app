@@ -1,16 +1,16 @@
-<div>
-  <div class="whole-post">
+<div class="mt-8">
+  <div class="whole-post bg-white p-4 rounded shadow-md">
     <div class="info-section">
       <div class="post-name">
-        <a href="/post/{{id}}" class="links">{{title}}</a>
+        <a href="/post/{{id}}" class="links text-blue-500 hover:text-blue-700">{{title}}</a>
       </div>
-      <div class="created-by">
-        <p id="comment-subtitle">
-          Posted by <b>{{user.username}} </b> on <b>{{formatDate created_at}}</b>
+      <div class="created-by mt-2">
+        <p id="comment-subtitle" class="text-gray-600 text-sm">
+          Posted by <b>{{user.username}}</b> on <b>{{formatDate created_at}}</b>
         </p>
       </div>
     </div>
-    <div class="content-section">
+    <div class="content-section mt-4">
       <p>{{content}}</p>
     </div>
   </div>
